@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="assetNames">
+    <option name="mapping">
+      <map>
+        <entry key="continue" value="continue1" />
+        <entry key="divider-1" value="divider_1" />
+        <entry key="divider-2" value="divider_2" />
+        <entry key="eg_jaison_just-1" value="eg_jaison_just_1" />
+        <entry key="icons_profile_wallet-1" value="icons_profile_wallet_1" />
+        <entry key="icons_profile_wallet-2" value="icons_profile_wallet_2" />
+        <entry key="icons_profile_wallet-3" value="icons_profile_wallet_3" />
+        <entry key="name-1" value="name_1" />
+        <entry key="name-2" value="name_2" />
+        <entry key="path_2456-1" value="path_2456_1" />
+        <entry key="path_2457-1" value="path_2457_1" />
+        <entry key="path_2458-1" value="path_2458_1" />
+        <entry key="path_2459-1" value="path_2459_1" />
+        <entry key="phone-1" value="phone_1" />
+        <entry key="product-1" value="product_1" />
+        <entry key="wantline-1" value="wantline_1" />
+      </map>
+    </option>
+  </component>
+</project>

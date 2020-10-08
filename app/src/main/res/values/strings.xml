@@ -1,0 +1,83 @@
+<resources>
+    <string name="appname">YunBuy</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="year">
+        <item>二</item>
+        <item>四</item>
+    </string-array>
+
+    <string-array name="faculty">
+        <item>資訊管理系</item>
+        <item>企業管理系</item>
+        <item>會計系</item>
+        <item>工業工程與管理系</item>
+        <item>財務金融系</item>
+        <item>國際管理學士學位學程</item>
+        <item>創業管理碩士學位學程</item>
+        <item>產業經營專業博士學位學程</item>
+        <item>高階管理碩士學位學程</item>
+        <item>工商管理學士學位學程</item>
+        <item>工程科技研究所</item>
+        <item>機械工程系</item>
+        <item>電機工程系</item>
+        <item>電子工程系</item>
+        <item>環境與安全衛生工程系</item>
+        <item>化學工程與材料工程系</item>
+        <item>營建工程系</item>
+        <item>資訊工程系</item>
+        <item>設計學研究所</item>
+        <item>工業設計系</item>
+        <item>視覺傳達設計系</item>
+        <item>建築與室內設計系</item>
+        <item>數位媒體設計系</item>
+        <item>創意生活設計系</item>
+        <item>應用外語系</item>
+        <item>文化資產維護系</item>
+        <item>技術及職業教育研究所</item>
+        <item>漢學應用研究所</item>
+        <item>科技法律研究所</item>
+        <item>休閒運動研究所</item>
+        <item>材料科技研究所</item>
+        <item>師資培育中心</item>
+        <item>通識教育中心</item>
+        <item>前瞻學士學位學程</item>
+        <item>產業專案學士學位學程</item>
+    </string-array>
+
+    <string name="app_name">yunbuy</string>
+    <string name="enter_user_id">Enter User ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="enter_product_description">Enter Product Description</string>
+    <string name="submit">Submit</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone</string>
+    <string name="department">Department</string>
+    <string name="ex_0910123456">ex:0910123456</string>
+    <string name="name">Name</string>
+    <string name="yuntech_webmail">YunTech WebMail</string>
+    <string name="password">Password</string>
+    <string name="security_password">Security Password</string>
+    <string name="student_id">Student ID</string>
+    <string name="psdenter">**********</string>
+    <string name="yuntech_edu_tw">\@yuntech.edu.tw</string>
+    <string name="five_number_only">Five Number Only</string>
+    <string name="min">－</string>
+    <string name="plus">+</string>
+    <string name="minus">－</string>
+    <string name="pluss">＋</string>
+
+    <string-array name="stclass">
+        <item>一A</item>
+        <item>二A</item>
+        <item>三A</item>
+        <item>四A</item>
+        <item>一B</item>
+        <item>二B</item>
+        <item>三B</item>
+        <item>四B</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

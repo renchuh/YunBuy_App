@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/green"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="6dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/rectangle_1" />
+    <ImageButton
+        android:id="@+id/btn_back2"
+        android:layout_width="15dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:contentDescription="@string/app_name"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back" />
+    <TextView
+        android:id="@+id/tv_student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/green"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"/>
+
+    <ImageButton
+        android:id="@+id/iv_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        android:layout_below="@+id/tv_student_id"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="145dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/addpc" />
+
+
+    <ImageView
+        android:id="@+id/enter_info"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_below="@+id/iv_photo"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/enter_infooo" />
+
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_photo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="50dp"
+        android:autofillHints=""
+        android:background="@android:drawable/edit_text"
+        android:hint="@string/enter_product_name"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColorHint="#95A1AA" />
+
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="wrap_content"
+        android:layout_height="109dp"
+        android:layout_below="@+id/et_title"
+        android:layout_alignBottom="@+id/enter_info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="28dp"
+        android:autofillHints=""
+        android:background="@android:drawable/edit_text"
+        android:hint="@string/enter_product_description"
+        android:inputType="text"
+        android:textColorHint="#95A1AA" />
+
+    <ImageView
+        android:id="@+id/seat_price"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_below="@+id/enter_info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/set_price" />
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="52dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/enter_info"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="68dp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_stock"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/enter_info"
+        android:layout_alignBottom="@+id/seat_price"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="291dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="27dp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorBlue"
+        android:textSize="18sp" />
+
+
+    <ImageButton
+        android:id="@+id/btn_publish"
+        android:layout_width="wrap_content"
+        android:layout_height="46dp"
+        android:layout_below="@+id/seat_price"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button_submit"
+        android:textSize="25sp" />
+</RelativeLayout>
