@@ -9,7 +9,6 @@ YunBuy is a mobile application designed to simplify the online shopping experien
 - **User Authentication:** Create an account, log in, and enjoy personalized shopping experiences.
 - **Shopping Cart:** Add products to your cart and manage your shopping list effortlessly.
 - **Order History:** View and track your order history for a seamless shopping experience.
-- **User Reviews:** Share your feedback and read reviews from other users.
 
 ## Getting Started
 
